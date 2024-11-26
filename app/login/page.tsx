@@ -21,16 +21,17 @@ export default function LoginPage() {
         <div className="relative flex h-full flex-col">
           <div className="p-8">
             <Link href="/" className="text-2xl font-bold text-white">
-              SAHIL DB
+              AMU
             </Link>
           </div>
           <div className="flex flex-1 items-center justify-center p-8">
             <h1 className="text-center text-3xl font-medium leading-tight text-white">
               Welcome Back to
               <br />
-              Manya ASS 🫱( ‿ * ‿ )🫲
+              HizruBoys gang !!
             </h1>
           </div>
+
         </div>
       </div>
 
@@ -39,8 +40,8 @@ export default function LoginPage() {
         <div className="mx-auto w-full max-w-md space-y-8">
           <div className="flex items-center justify-between">
             <h2 className="text-3xl font-bold">Login</h2>
+
           </div>
-          
           <div className="space-y-6">
             <Input type="email" placeholder="Email" />
             <div className="relative">
@@ -63,6 +64,13 @@ export default function LoginPage() {
               <div className="absolute inset-0 flex items-center">
                 <div className="w-full border-t" />
               </div>
+            </div>
+            
+            <div className="text-center text-sm">
+              Don't have an account?{" "}
+              <Link href="/sign-up" className="text-primary hover:underline">
+                Sign up
+              </Link>
             </div>
           </div>
         </div>
@@ -90,3 +98,5 @@ function EyeIcon(props: React.SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
+
+
